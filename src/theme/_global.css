@@ -14,23 +14,32 @@ body,
   align-items: center;
   justify-content: center;
 }
+
 @utility flex {
   display: flex;
   flex-direction: row;
+}
+
+@utility -flex {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 @utility flex-col {
   display: flex;
   flex-direction: column;
 }
+
 @utility -flex-col {
   display: flex;
   flex-direction: column-reverse;
 }
+
 @utility flex-row {
   display: flex;
   flex-direction: row;
 }
+
 @utility -flex-row {
   display: flex;
   flex-direction: row-reverse;
